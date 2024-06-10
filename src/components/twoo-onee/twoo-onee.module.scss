@@ -1,0 +1,33 @@
+@import '@styles/theme.module.scss';
+.root {
+    text-align: end;
+    color: #c60606;
+    font-weight: 800;
+    font-stretch: condensed;
+    font-style: italic;
+    line-height: 2;
+    font-size: 24px;
+    font-family:
+        Times New Roman,
+        serif;
+    direction: ltr;
+    border: 5px solid black;
+    border-radius: 5em;
+    background-color: #ffb8b8;
+    box-shadow: -5.66px 5.66px 22px 51px #bc00ff;
+    opacity: 0.7;
+    width: 555px;
+    height: 444px;
+    display: flex;
+    overflow: visible;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 15px;
+    padding: 15px;
+}
+.yty {
+    margin-top: 80px;
+    margin-left: 50px;
+    padding: 15px;
+    font-size: 48px;
+}
