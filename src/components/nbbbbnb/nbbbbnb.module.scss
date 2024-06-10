@@ -1,0 +1,14 @@
+@import '@styles/theme.module.scss';
+.root {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.fgdf {
+    grid-row: 6 / 7;
+    grid-column: 2 / 6;
+}
+.zxzzx {
+    grid-row: 4 / 5;
+    grid-column: 1 / 6;
+}
